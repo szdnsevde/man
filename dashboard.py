@@ -274,7 +274,7 @@ if tahminler:
 # Ayrım çizgileri
 for x_idx, label in [("Tem-24","← Eğitim | Test →"),("Oca-25","← Test | Tahmin →")]:
     fig.add_vline(x=x_idx, line_dash="dot", line_color="#F39200", line_width=1.5)
-    fig.add_annotation(x=x_idx, y=0, text=label, showarrow=False,
+    fig.add_annotation(x=x_idx, text=label, showarrow=False,
                        font=dict(size=9,color="#F39200"),
                        yref="paper", yanchor="bottom", y=0.02)
 
